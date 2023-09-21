@@ -1,21 +1,32 @@
 import Tag from '../Tag'
 
 import { Card, Titulo, Descricao } from './styles'
+import star from '../../assets/images/star.png'
+import { ButtonContainer } from '../Button/styles'
+import { Link } from 'react-router-dom'
 
-import suchi from '../../assets/images/suchi.png'
+export type Props = {
+  title: string
+  grade: string
+  category: string
+  description: string
+  image: string
+}
 
-const Restaurant = () => (
+const Restaurant = ({ title, grade, category, description, image }: Props) => (
   <Card>
-    <Tag>Japonesa</Tag>
-    <img src={suchi} alt="suchi" />
-    <Titulo>Nome do Restaurante</Titulo>
-    <Descricao>
-      Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis
-      frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega
-      rápida, embalagens cuidadosas e qualidade garantida. Experimente o Japão
-      sem sair do lar com nosso delivery!
-    </Descricao>
-    <button>Saiba mais</button>
+    <Tag>{category}</Tag>
+    <img src={image} />
+    <Titulo>
+      {title}
+      <span>
+        {grade} <img src={star} alt="estrela" />
+      </span>
+    </Titulo>
+    <Descricao>{description}</Descricao>
+    <ButtonContainer>
+      <Link to="/therestaurant">Saiba mais</Link>
+    </ButtonContainer>
   </Card>
 )
 

@@ -12,6 +12,8 @@ export const GlobalCss = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {

@@ -1,16 +1,22 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
 import { TagContainer } from '../Tag/styles'
-import { ButtonContainer } from '../Button/styles'
 
-export const Card = styled.div`
-  background-color: transparent;
-  border-color: ${cores.salmao};
-  border: 1px solid;
-  max-width: 474px;
+export const Cardproduct = styled.div`
+  background-color: ${cores.salmao};
+  color: ${cores.branca}
   justify-content: center;
   align-items: center;
   position: relative;
+  border: 5px solid;
+  max-width: 360px;
+
+  img {
+  width: 336px;
+  height: 167px;
+  margin: 8px;
+  }
+
 
   ${TagContainer} {
     margin-left: 380px;
@@ -19,9 +25,16 @@ export const Card = styled.div`
     font-size: 16px;
   }
 
-  ${ButtonContainer} {
+  button {
     margin-left: 6px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: ${cores.fundoclaro};
+    color: ${cores.salmao}
+    display: flex-inline;
+    padding: 8px 82px;
   }
 `
 
