@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { cores } from '../../styles'
 
 export const Container = styled.section`
-  padding: 32px 30px;
+  padding: 32px 60px;
   margin-bottom: 100px;
   color: ${cores.branca};
 `
@@ -10,10 +10,10 @@ export const Container = styled.section`
 export const List = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-  margin: 100px;
-  margin-top: 40px;
   justify-content: center;
+  grid-row-gap: 20px;
+  column-gap: 20px;
+  padding: 8px 360px;
 `
 
 export const Title = styled.h2`

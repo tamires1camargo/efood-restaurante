@@ -12,6 +12,11 @@ export const Card = styled.div`
   align-items: center;
   position: relative;
 
+  a {
+    color: ${cores.branca};
+    text-decoration: none;
+  }
+
   ${TagContainer} {
     margin-left: 380px;
     position: absolute;
@@ -20,7 +25,7 @@ export const Card = styled.div`
   }
 
   ${ButtonContainer} {
-    margin-left: 6px;
+    margin-left: 10px;
     margin-bottom: 8px;
   }
 `

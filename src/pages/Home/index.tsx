@@ -9,7 +9,7 @@ import FooterFood from '../../components/Footer'
 const ofertas: Loja[] = [
   {
     id: 1,
-    title: 'Suchi',
+    title: 'Hioki Suchi',
     grade: '4.9',
     category: 'Japonesa',
     description:

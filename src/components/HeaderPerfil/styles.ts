@@ -8,7 +8,7 @@ export const HeaderFood = styled.header`
   text-align: center;
   display: flex;
   justify-content: space-between;
-  padding: 60px 50px;
+  padding: 60px 86px;
   font-size: 18px;
 
   a {
@@ -19,11 +19,12 @@ export const HeaderFood = styled.header`
 `
 export const Links = styled.ul`
   display: flex;
-  margin-left: 40px;
+  margin-left: 56px;
 `
 export const LinkItem = styled.li`
-  margin-right: 16px;
+  margin-right: 52px;
 `
 export const LinkCart = styled.a`
   display: flex;
+  margin-right: 32px;
 `

@@ -14,6 +14,7 @@ export const Logofooter = styled.img`
   max-height: 48px;
   text-align: center;
   justify-content: center;
+  align-items: center;
   position: absolute;
 `
 export const Redesfooter = styled.img`
@@ -21,11 +22,13 @@ export const Redesfooter = styled.img`
   margin-bottom: 34px;
   text-align: center;
   justify-content: center;
+  align-items: center;
+  margin-left: 8px;
 `
 
 export const Rodape = styled.h5`
   font-family: Roboto;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 12px;
   display: flex;
@@ -33,4 +36,7 @@ export const Rodape = styled.h5`
   text-align: center;
   margin-top: 40px;
   margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48em;
 `

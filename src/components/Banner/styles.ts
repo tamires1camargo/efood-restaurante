@@ -17,7 +17,7 @@ export const Imagem = styled.div`
     font-size: 32px;
     position: absolute;
     margin-top: 58px;
-    left: 170px;
+    left: 122px;
   }
 
   h3 {
@@ -25,6 +25,6 @@ export const Imagem = styled.div`
     font-size: 32px;
     position: absolute;
     margin-top: 187px;
-    left: 170px;
+    left: 122px;
   }
 `

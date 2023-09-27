@@ -17,6 +17,11 @@ export const Cardproduct = styled.div`
   margin: 8px;
   }
 
+  a {
+    color: ${cores.salmao};
+    text-decoration: none;
+  }
+
 
   ${TagContainer} {
     margin-left: 380px;
