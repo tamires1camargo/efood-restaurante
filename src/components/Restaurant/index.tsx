@@ -1,6 +1,6 @@
 import Tag from '../Tag'
 
-import { Card, Titulo, Descricao } from './styles'
+import { Card, Titulo, Descricao, Destaque } from './styles'
 import star from '../../assets/images/star.png'
 import { ButtonContainer } from '../Button/styles'
 import { Link } from 'react-router-dom'
@@ -11,10 +11,19 @@ export type Props = {
   category: string
   description: string
   image: string
+  highlight: string
 }
 
-const Restaurant = ({ title, grade, category, description, image }: Props) => (
+const Restaurant = ({
+  title,
+  grade,
+  category,
+  description,
+  image,
+  highlight
+}: Props) => (
   <Card>
+    <Destaque>{highlight}</Destaque>
     <Tag>{category}</Tag>
     <img src={image} />
     <Titulo>

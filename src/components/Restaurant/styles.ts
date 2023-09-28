@@ -21,7 +21,7 @@ export const Card = styled.div`
     margin-left: 380px;
     position: absolute;
     margin-top: 24px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   ${ButtonContainer} {
@@ -52,4 +52,14 @@ export const Descricao = styled.p`
   display: block;
   margin-top: 16px;
   padding: 8px;
+`
+export const Destaque = styled.div`
+  background-color: ${cores.salmao};
+  color: ${cores.branca};
+  margin-left: 224px;
+  position: absolute;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 6px;
 `

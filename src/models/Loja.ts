@@ -5,6 +5,7 @@ class Loja {
   description: string
   image: string
   id: number
+  highlight: string
 
   constructor(
     title: string,
@@ -12,7 +13,8 @@ class Loja {
     category: string,
     description: string,
     image: string,
-    id: number
+    id: number,
+    highlight: string
   ) {
     this.title = title
     this.grade = grade
@@ -20,6 +22,7 @@ class Loja {
     this.description = description
     this.image = image
     this.id = id
+    this.highlight = highlight
   }
 }
 

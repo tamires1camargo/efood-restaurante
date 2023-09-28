@@ -9,6 +9,7 @@ import FooterFood from '../../components/Footer'
 const ofertas: Loja[] = [
   {
     id: 1,
+    highlight: 'Destaque da semana',
     title: 'Hioki Suchi',
     grade: '4.9',
     category: 'Japonesa',
@@ -18,6 +19,7 @@ const ofertas: Loja[] = [
   },
   {
     id: 2,
+    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -27,6 +29,7 @@ const ofertas: Loja[] = [
   },
   {
     id: 3,
+    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -36,6 +39,7 @@ const ofertas: Loja[] = [
   },
   {
     id: 4,
+    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -45,6 +49,7 @@ const ofertas: Loja[] = [
   },
   {
     id: 5,
+    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -54,6 +59,7 @@ const ofertas: Loja[] = [
   },
   {
     id: 6,
+    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',

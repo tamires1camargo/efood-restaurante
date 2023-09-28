@@ -21,6 +21,7 @@ const RestaurantList = ({ title, lojas }: Props) => (
             category={loja.category}
             description={loja.description}
             image={loja.image}
+            highlight={loja.highlight}
           />
         ))}
       </List>

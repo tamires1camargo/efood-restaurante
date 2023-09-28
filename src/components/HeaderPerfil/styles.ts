@@ -11,6 +11,10 @@ export const HeaderFood = styled.header`
   padding: 60px 86px;
   font-size: 18px;
 
+  margin-left: auto;
+  margin-right: auto;
+  width: 72vw;
+
   a {
     color: ${cores.salmao};
     text-decoration: none;

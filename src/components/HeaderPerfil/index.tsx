@@ -5,8 +5,8 @@ import logo from '../../assets/images/logo.png'
 import fundo from '../../assets/images/fundo.png'
 
 const HeaderPerfil = () => (
-  <div className="container">
-    <HeaderFood style={{ backgroundImage: `url(${fundo})` }}>
+  <div className="container" style={{ backgroundImage: `url(${fundo})` }}>
+    <HeaderFood>
       <Links>
         <LinkItem>
           <Link to="/">Restaurantes</Link>

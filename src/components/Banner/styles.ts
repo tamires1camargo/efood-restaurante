@@ -16,15 +16,15 @@ export const Imagem = styled.div`
     font-weight: 100;
     font-size: 32px;
     position: absolute;
-    margin-top: 58px;
-    left: 122px;
+    margin-top: 28px;
+    padding: 6px 400px;
   }
 
   h3 {
     font-weight: 900;
     font-size: 32px;
     position: absolute;
-    margin-top: 187px;
-    left: 122px;
+    margin-top: 192px;
+    padding: 6px 400px;
   }
 `
