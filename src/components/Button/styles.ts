@@ -12,7 +12,6 @@ export const ButtonContainer = styled.button`
   text-decoration: none;
   cursor: pointer;
   border: none;
-  letter-spacing: 1px;
 `
 
 export const ButtonLink = styled(Link)`

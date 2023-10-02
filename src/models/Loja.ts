@@ -5,7 +5,7 @@ class Loja {
   description: string
   image: string
   id: number
-  highlight: string
+  highlight?: string
 
   constructor(
     title: string,
@@ -14,7 +14,7 @@ class Loja {
     description: string,
     image: string,
     id: number,
-    highlight: string
+    highlight?: string
   ) {
     this.title = title
     this.grade = grade

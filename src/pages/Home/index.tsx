@@ -19,7 +19,6 @@ const ofertas: Loja[] = [
   },
   {
     id: 2,
-    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -29,7 +28,6 @@ const ofertas: Loja[] = [
   },
   {
     id: 3,
-    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -39,7 +37,6 @@ const ofertas: Loja[] = [
   },
   {
     id: 4,
-    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -49,7 +46,6 @@ const ofertas: Loja[] = [
   },
   {
     id: 5,
-    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',
@@ -59,7 +55,6 @@ const ofertas: Loja[] = [
   },
   {
     id: 6,
-    highlight: '',
     title: 'La Dolce Vita Trattoria',
     grade: '4.6',
     category: 'Italiana',

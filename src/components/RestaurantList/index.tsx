@@ -21,7 +21,8 @@ const RestaurantList = ({ title, lojas }: Props) => (
             category={loja.category}
             description={loja.description}
             image={loja.image}
-            highlight={loja.highlight}
+            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+            highlight={loja.highlight!}
           />
         ))}
       </List>
